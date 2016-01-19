@@ -5,4 +5,8 @@ Hi. I'm a starter theme called Underscores or _s, if you like. I'm a theme meant
 
 ## Getting Started
 
-If you want to set things up manually, download `underscores` from GitHub. The first thing you want to do is copy the _s directory and change the name to something else (like, say, megatherium), and then you'll need to do a five-step find and replace on the name in all the templates.
+If you want to set things up manually, download `Underscores` from GitHub. The first thing you want to do is copy the `Underscores` directory and change the name to something else (like, say, Webovation).
+
+Now you're ready to go! The next step is easy to say, but harder to do: make an awesome WordPress theme.
+
+Good luck!
