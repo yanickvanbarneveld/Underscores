@@ -26,3 +26,11 @@ function remove_file_version($src) {
 
     return $src;
 }
+
+function add_scripts() {
+	wp_enqueue_style('_s-style', get_stylesheet_uri());
+
+	wp_enqueue_script('jquery');
+	wp_enqueue_script('customplugins', get_template_directory_uri() . '/assets/scripts/plugins.js', array('jquery'), NULL, true);
+	wp_enqueue_script('customscripts', get_template_directory_uri() . '/assets/scripts/main.js', array('jquery'), NULL, true);
+}

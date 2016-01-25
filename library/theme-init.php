@@ -23,6 +23,9 @@ function setup() {
 	add_theme_support('automatic-feed-links');
 	add_theme_support('title-tag');
 
+	// Yeah, we also load our own stylesheet, ofcourse and some of our scripts!
+	add_action('wp_enqueue_scripts', 'add_scripts');
+
 	// Oh, in the backend there is still some ugly stuff we need to clean up...
 	add_action('admin_init', 'remove_image_link', 10);
 	add_theme_support('post-thumbnails');
